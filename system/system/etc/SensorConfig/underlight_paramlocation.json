@@ -1,0 +1,10 @@
+{
+	"paramlocation": {
+		"sensordisplaylocation": [652,13,682,44],
+		"notsupportDCFeature": 1,
+		"supportAcl3": 0,
+		"supportSecondLight": 0,
+		"supportSecondDisplay": 2,
+		"project": "PD2326"
+	}
+}

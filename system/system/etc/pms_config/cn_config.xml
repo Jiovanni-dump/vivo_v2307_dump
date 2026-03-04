@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+   <!-- hide launchActivity -->    
+   <hideAppsIcon name="com.bbk.lite.theme"/>
+   <hideAppsIcon name="com.bbk.cloud"/>
+   <hideAppsIcon name="com.vivo.base.gallery" />
+   <hideAppsIcon name="com.vivo.upslide" />
+   <hideAppsIcon name="com.vivo.pay"/>
+   <!-- vivo <xuyoujian> modify for SPD2222:[B230201-2046]add config, 2023.02.01 start-->
+   <hideAppsIcon name="com.vivo.base.vtouch"/>
+   <!-- vivo <xuyoujian> modify for SPD2222:[B230201-2046]add config, 2023.02.01 end-->
+   
+   <!-- split baseApp/fullApp -->
+   <!-- <package baseApp="com.vivo.baseapp" fullApp="com.vivo.fullapp"/> -->
+   <splitBaseApp baseApp="com.vivo.base.gallery" fullApp="com.vivo.gallery" />
+   <splitBaseApp baseApp="com.vivo.base.player" fullApp="com.android.bbkmusic" />
+   <!-- vivo <sunhan> modify for SPD1820:[B221214-3573]add config, 2022.12.14 start-->
+   <splitBaseApp baseApp="com.vivo.base.agent" fullApp="com.vivo.agent" />
+   <!-- vivo <sunhan> modify for SPD1820:[B221214-3573]add config, 2022.12.14 end-->
+   <!-- vivo <xuyoujian> modify for SPD2222:[B230201-2046]add config, 2023.02.01 start-->
+   <splitBaseApp baseApp="com.vivo.base.vtouch" fullApp="com.vivo.vtouch" />
+   <!-- vivo <xuyoujian> modify for SPD2222:[B230201-2046]add config, 2023.02.01 end-->
+
+   <!-- install failed conflicting system app name -->
+   <installBlackApp name="com.vivo.space"/>
+   <installBlackApp name="com.vivo.wallet"/>
+   <installBlackApp name="com.iqoo.secure"/>
+   <installBlackApp name="com.android.VideoPlayer"/>
+   <installBlackApp name="com.android.bbkmusic"/>
+   <installBlackApp name="com.vivo.agent.desktop"/>
+   <installBlackApp name="com.vivo.moodcube"/>
+   <installBlackApp name="com.bbk.calendar"/>
+   <installBlackApp name="com.vivo.gallery"/>
+   <installBlackApp name="com.android.BBKClock"/>
+   <installBlackApp name="com.bbk.theme"/>
+
+   <!-- install failed conflicting system app provider -->
+   <!--<installBlackAuthority name="vivo.test.example.mozil.authority"/>-->
+</config>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<boolean name="gyroscope_support">true</boolean>
+	<boolean name="hifi_support">false</boolean>
+	<boolean name="fm_support">false</boolean>
+	<boolean name="camera_pdaf">true</boolean>
+	<boolean name="flash_light_cali_support">true</boolean>
+    <boolean name="under_infrared_support">true</boolean>
+	<boolean name="meid_support">true</boolean>
+	<boolean name="dpdt_test">false</boolean>
+	<boolean name="fastcharger_support">true</boolean>
+	<boolean name="light_sensor_angle">true</boolean>
+	<boolean name="lcm_light_sensor">true</boolean>
+	<string name="btb_slot">SIM1,SIM2</string>
+	<boolean name="high_rate_shadow_support">true</boolean>
+	<boolean name="sim_test_support">true</boolean>
+	<boolean name="front_camera_under_screen">true</boolean>
+	<string name="camera_type">back[Master,RTBOnly]front[Master]</string>
+	<boolean name="rear_wide_type_ff">true</boolean>
+	<boolean name="bad_screen_support">false</boolean>
+	<boolean name="sarA_support">false</boolean>
+	<boolean name="single_flash_light">true</boolean>
+	<boolean name="back_ring_flash_support">true</boolean>
+	<!-- 环形手电筒测试 -->
+	<boolean name="four_flash_light">true</boolean>
+</resources>

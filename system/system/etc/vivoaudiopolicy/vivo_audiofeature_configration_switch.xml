@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<switches>
+	<switch name="persist.vivo.audio.feature.directional_playback.enable" value="on" />
+	<switch name="persist.vivo.audio.feature.micinfo_vcode.enable" value="off" />
+	<switch name="persist.vivo.audio.feature.speaker_vcode.enable" value="off" />
+	<switch name="persist.vivo.audio.feature.spkbvm_vcode.enable" value="on" />
+	<switch name="persist.vivo.audio.feature.recordevent_vcode.enable" value="on" />
+	<switch name="persist.vivo.audio.feature.callmute_vcode.enable" value="off" />
+	<switch name="persist.vivo.audio.feature.muteplay_disablepa.enable" value="off" />
+	<switch name="persist.vivo.audio.feature.muteplay_disablepa_version2.enable" value="on" />
+	<switch name="persist.vivo.audio.feature.standby_disablepa.enable" value="off" />
+	<switch name="persist.vivo.audio.feature.standby_disablepa_version2.enable" value="off" />
+	<switch name="persist.vivo.audio.feature.vivomediaresource_monitor.enable" value="on" />
+	<switch name="persist.vivo.audio.feature.vivomediaresource_get_activity.enable" value="on" />
+	<switch name="persist.vivo.audio.feature.bt_recorder.enable" value="off" />
+	<switch name="persist.vivo.audio.feature.restorevolume.enable" value="off" />
+	<switch name="persist.vivo.audio.feature.vivomediaresource_killer.enable" value="on" />
+	<switch name="persist.vivo.audio.feature.vivobitmap_optimize.enable" value="on" />
+	<switch name="persist.vivo.audio.feature.ktvmode.enable" value="on" />
+	<switch name="persist.vivo.audio.feature.usenxp.enable" value="on" />
+	<switch name="persist.vivo.audio.feature.voice_call_sar.enable" value="on" />
+	<switch name="persist.vivo.audio.feature.game_vc_vmagic_effect.disable" value="off" />
+	<switch name="persist.vivo.audio.feature.pre_start_bt.enable" value="on" />
+	<switch name="persist.vivo.audio.feature.mediametrics.anchor.enable" value="on" />
+	<switch name="persist.vivo.audio.feature.vivo_spat_multi_channel.disable" value="off" />
+	<switch name="persist.vivo.audio.feature.twsringtone.enable" value="off" />
+	<switch name="persist.vivo.audio.feature.media_autoboost.enable" value="on" />
+	<switch name="persist.vivo.audio.feature.ap.offload.enable" value="off" />
+	<switch name="persist.vivo.audio.feature.roi.filter.enable" value="on" />
+	<switch name="persist.vivo.audio.feature.extended_volume_level.enable" value="on" />
+	<switch name="persist.vivo.audio.feature.hires.enable" value="on" />
+</switches>

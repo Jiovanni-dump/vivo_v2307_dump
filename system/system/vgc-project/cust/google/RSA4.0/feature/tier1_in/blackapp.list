@@ -1,0 +1,14 @@
+/product/app GoogleContacts
+/product/priv-app CrossDeviceServicesStub
+/product/priv-app GoogleDialer
+/product/priv-app GoogleDialerGo
+/system/app StepCountService
+/system/priv-app health_connect-stub
+/system/priv-app Mms
+/system/priv-app MmsService
+/system/priv-app RcsSDK
+/system/priv-app TelephonyProvider
+/system/product/app GoogleContacts
+/system/product/priv-app CrossDeviceServicesStub
+/system/product/priv-app GoogleDialer
+/system/product/priv-app GoogleDialerGo

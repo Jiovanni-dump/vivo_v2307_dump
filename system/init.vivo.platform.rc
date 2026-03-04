@@ -1,0 +1,20 @@
+#init.rc for vivo
+on boot
+	setprop persist.vendor.qg.coff_ibat_ma 100
+
+# qg dump control
+on property:sys.log.tag.QG_DUMP=1
+	setprop persist.vendor.qg.log_level 2
+	write /sys/kernel/debug/qgauge/debug_mask 0xffff
+	write /proc/sys/kernel/printk_ratelimit 10000
+	write /proc/sys/kernel/printk_ratelimit_burst 10000
+	write /proc/sys/kernel/printk "0 0 0 0"
+	write /proc/sys/kernel/printk_devkmsg "on"
+
+on property:sys.log.tag.QG_DUMP=0
+	setprop persist.vendor.qg.log_level 0
+	write /sys/kernel/debug/qgauge/debug_mask 0x6b
+	write /proc/sys/kernel/printk_ratelimit 5
+	write /proc/sys/kernel/printk_ratelimit_burst 10
+	write /proc/sys/kernel/printk "4 4 1 4"
+	write /proc/sys/kernel/printk_devkmsg "ratelimit"

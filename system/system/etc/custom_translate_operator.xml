@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<operators version="1">
+    <operator mccmnc="46001,46006,46009,46030,46031,46032" translateName="@string/vivo_custom_operator_cu"/>
+    <operator mccmnc="46000,46002,46004,46007,46008,46020,46021,46022" translateName="@string/vivo_custom_operator_cmcc"/>
+    <operator mccmnc="46003,46011,46050,46051" translateName="@string/vivo_custom_operator_ctcc"/>
+    <operator mccmnc="46015" translateName="@string/vivo_custom_operator_cbn"/>
+    <operator mccmnc="46601" translateName="@string/vivo_custom_operator_fet"/>
+    <operator mccmnc="46689" translateName="@string/vivo_custom_operator_tstar"/>
+    <operator mccmnc="46692" translateName="@string/vivo_custom_operator_chunghwa"/>
+    <operator mccmnc="46697" translateName="@string/vivo_custom_operator_twm"/>
+</operators>

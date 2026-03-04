@@ -1,0 +1,36 @@
+on boot
+    # Allow bugreports access to eMMC 5.0 stats
+    chown root mount /sys/kernel/debug/mmc0/mmc0:0001/ext_csd
+    chmod 0440 /sys/kernel/debug/mmc0/mmc0:0001/ext_csd
+
+service dumpstate /system/bin/dumpstate -s
+    class main
+    socket dumpstate stream 0660 shell log
+    disabled
+    oneshot
+
+# dumpstatez generates a zipped bugreport but also uses a socket to print the file location once
+# it is finished.
+service dumpstatez /system/bin/dumpstate -S
+    socket dumpstate stream 0660 shell log
+    class main
+    disabled
+    oneshot
+
+# bugreportd starts dumpstate binder service and makes it wait for a listener to connect.
+service bugreportd /system/bin/dumpstate -w
+    class main
+    disabled
+    oneshot
+
+# vivo xuxiang add launch simpleperf begin
+on property:persist.vivo.dumpstatem_start=true
+    start dumpstatem
+    setprop persist.vivo.dumpstatem_start false
+
+service dumpstatem /system/bin/dumpstate simpleperf
+    class main
+    socket simpleperf stream 0666 system system
+    disabled
+    oneshot
+# vivo xuxiang add launch simpleperf end

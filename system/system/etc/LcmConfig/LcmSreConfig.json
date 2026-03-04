@@ -1,0 +1,12 @@
+[
+      {
+             "project":[ "PD2326F_EX" ],
+             "sreConfigStatus": "true",
+             "Version": 4,
+             "hbmUpLuxLevel": [ 20000, 30000, 40000, 60000, 80000, 100000 ],
+             "hbmDownLuxLevel": [ 10000, 20000, 30000, 40000, 60000, 80000 ],
+             "hbmLimitTime": 15,
+             "upLuxDelay": 2500,
+             "downLuxDelay": 3500
+      }
+]

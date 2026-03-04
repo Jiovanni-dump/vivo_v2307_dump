@@ -1,0 +1,17 @@
+{
+    "EngineModeRejectReduceSar": 1,
+    "is_underproximitysensor": 1,
+    "SmartProx": 1,
+    "UnderDisplayLight": 1,
+    "MultilevelBright": 1,
+    "IsUseNitBrightnessBar": 1,
+    "NotifyLcmBrightnessToDriverList": 1,
+    "DriverProxTempCali": 1,
+    "MaxBrightness": 2047,
+    "MinimumBrightHighThreshold": 113,
+    "BoostBrightness": 573,
+    "ScreenOnWaitLux": 240,
+    "UserModifyVer": 2,
+    "IsUseLearnedDarkBrightness":1,
+    "DimmingSpeed": 40
+}

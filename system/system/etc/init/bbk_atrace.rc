@@ -1,0 +1,5 @@
+service bbk_atrace /system/bin/bbk_atrace
+    class main
+    user system
+    group shell
+    seclabel u:r:atrace:s0

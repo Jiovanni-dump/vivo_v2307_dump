@@ -1,0 +1,50 @@
+{
+    "underProxWhiteList":[
+        "com.invensense.logger.fragments",
+        "com.qualcomm.qti.sensors",
+        "com.qualcomm.sensors.qsensortest",
+        "engineermode",
+        "com.vivo.sensor.SDC",
+        "com.vivo.sensor.proximity"
+    ],
+
+    "cctWhiteList":[
+        "com.invensense.logger.fragments",
+        "com.qualcomm.qti.sensors",
+        "com.qualcomm.sensors.qsensortest",
+        "engineermode",
+        "com.android.camera",
+        "hidl_client_pid",
+        "com.vivo.sensor.utils.CCTRawDataDisplayService"
+    ],
+
+    "raiseUpDetectWhiteList":[
+        "com.invensense.logger.fragments",
+        "com.qualcomm.qti.sensors",
+        "com.qualcomm.sensors.qsensortest",
+        "engineermode",
+        "com.vivo.services.motion.RaiseUpWakeService",
+        "com.vivo.keyguard.presenter.smart.KeyguardRaiseAndPutDownManager",
+        "com.vivo.bsptest",
+        "com.vivo.faceui",
+        "com.vivo.fingerprintui",
+        "com.vivo.services.nightpearl",
+        "com.android.incallui"
+    ],
+
+    "underLightWhiteList":[
+        "com.invensense.logger.fragments",
+        "com.qualcomm.qti.sensors",
+        "com.qualcomm.sensors.qsensortest",
+        "engineermode",
+        "com.vivo.sensor.SDC",
+        "com.vivo.bsptest"
+    ],
+
+    "airplaneIdentifyWhiteList":[
+        "com.invensense.logger.fragments",
+        "com.qualcomm.qti.sensors",
+        "com.qualcomm.sensors.qsensortest",
+        "com.vivo.aiengine"
+    ]
+}

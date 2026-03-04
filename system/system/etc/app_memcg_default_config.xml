@@ -1,0 +1,28 @@
+<config version="20">
+    <switch>
+        <filter use_memcg="1"/>
+    </switch>
+    <cgroups>
+        <!-- demo: uid: pkg: process: group -->
+        <filter name=",com.bbk.launcher2,,active_bg"/>
+        <filter name=",com.android.launcher3,,active_bg"/>
+        <filter name=",com.vivo.hiboard,,active_bg"/>
+        <filter name=",com.android.systemui,,active_bg"/>
+        <filter name=",com.vivo.upslide,,active_bg"/>
+        <filter name=",com.android.camera,,active_bg"/>
+        <filter name=",system_server,,system_server"/>
+    </cgroups>
+    <native_cgroups>
+        <!-- demo: uid: pkg: process: group -->
+        <filter name="surfaceflinger,active_bg"/>
+        <filter name="vendor.vivo.hardware.biometrics.face,active_bg"/>
+        <filter name="vendor.vivo.hardware.biometrics.face_native,active_bg"/>
+        <filter name="android.hardware.biometrics.face-service.aidl,active_bg"/>
+        <filter name="vendor.qti.camera.provider,active_bg"/>
+        <filter name="android.hardware.camera.provider,active_bg"/>
+        <filter name="vendor.vivo.hardware.camera3rd.provider,active_bg"/>
+        <filter name="cameraserver,active_bg"/>
+        <filter name="vivocameraserver,active_bg"/>
+        <filter name="camerahalserver,active_bg"/>
+    </native_cgroups>
+</config>
