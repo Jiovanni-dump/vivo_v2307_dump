@@ -1,0 +1,8 @@
+system/system/app/VivoCamera/VivoCamera.apk
+product/priv-app/GmsCore/GmsCore.apk
+product/priv-app/Velvet/Velvet.apk
+product/priv-app/Messages/Messages.apk
+product/app/WebViewGoogle/WebViewGoogle.apk
+system_ext/apex/com.android.vndk.v30.apex
+fs_config_dirs
+fs_config_files

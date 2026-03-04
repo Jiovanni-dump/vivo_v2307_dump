@@ -1,0 +1,14 @@
+# qssi-user 13 TP1A.220624.014 eng.compil.20240103.144633 release-keys
+- manufacturer: vivo
+- platform: holi
+- codename: V2307
+- flavor: qssi-user
+- release: 13
+- id: TP1A.220624.014
+- incremental: eng.compil.20240103.144633
+- tags: release-keys
+- fingerprint: vivo/V2307T/V2307:11/RP1A.200720.012/compiler0103144547:user/release-keys
+- is_ab: false
+- brand: vivo
+- branch: qssi-user-13-TP1A.220624.014-eng.compil.20240103.144633-release-keys
+- repo: vivo_v2307_dump
