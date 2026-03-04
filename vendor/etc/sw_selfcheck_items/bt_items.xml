@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sw_selfcheck_items>
+	<command name = "bt_mac">
+		<item type = "file" tag = "/mnt/vendor/persist/bluetooth/.bt_nv.bin" />
+	</command>
+
+	<command name = "software_selfcheck">
+	</command>
+</sw_selfcheck_items>

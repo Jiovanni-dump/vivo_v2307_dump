@@ -1,0 +1,6 @@
+service fs_check /vendor/bin/fs_check 0
+    class main
+    user root
+    group root system radio
+    disabled
+    oneshot

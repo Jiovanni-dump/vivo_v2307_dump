@@ -1,0 +1,16 @@
+{
+	"fastns and llhdr":	{
+		"isoThreshold":	12500,
+		"MergeNum":	{
+			"iso <= isoThreshold":	8,
+			"iso > isoThreshold":	8
+		}
+	},
+	"superns":	{
+		"isoThreshold":	12500,
+		"MergeNum":	{
+			"iso <= isoThreshold":	10,
+			"iso > isoThreshold":	10
+		}
+	}
+}

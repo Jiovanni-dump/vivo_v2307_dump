@@ -1,0 +1,20 @@
+on property:sys.usb.config=vusbd && property:sys.usb.configfs=1
+    start adbd
+
+on property:sys.usb.config=charging,vusbd && property:sys.usb.configfs=1
+    start adbd
+
+on property:sys.usb.config=mtp,vusbd && property:sys.usb.configfs=1
+    start adbd
+
+on property:sys.usb.config=ptp,vusbd && property:sys.usb.configfs=1
+    start adbd
+
+on property:sys.usb.ffs.ready=0 && property:sys.usb.config=diag,serial_cdev,serial_tty,rmnet_ipa,mass_storage,adb && property:sys.usb.configfs=1
+    start adbd
+
+on property:sys.usb.ffs.ready=0 && property:sys.usb.config=diag,diag_mdm,serial_cdev,serial_cdev_mdm,nmea,rmnet,mass_storage,adb && property:sys.usb.configfs=1
+    start adbd
+
+on property:sys.usb.config=rndis,serial_cdev,diag,adb && property:sys.usb.configfs=1
+    start adbd

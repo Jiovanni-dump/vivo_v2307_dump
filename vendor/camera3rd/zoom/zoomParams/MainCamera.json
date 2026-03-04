@@ -1,0 +1,159 @@
+{
+	"zoomScaleRangeStart":	[1.500000, 4.900000, 7.900000, 10],
+	"zoomScaleRange1":	{
+		"isoRangeStart":	[0, 100, 200, 400, 600, 800, 1200, 1600, 3200, 6400, 9600, 12800],
+		"isoRange1":	{
+			"zoomParams":	[2, 15, 30, 15, 15, 30, 1, 10]			
+		},
+		"isoRange2":	{
+			"zoomParams":	[2, 25, 30, 15, 15, 30, 1, 10]
+		},
+		"isoRange3":	{
+			"zoomParams":	[2, 25, 30, 25, 15, 30, 1, 10]
+		},
+		"isoRange4":	{
+			"zoomParams":	[2, 30, 30, 30, 15, 30, 1, 10]
+		},
+		"isoRange5":	{
+			"zoomParams":	[1, 30, 30, 30, 15, 30, 1, 10]
+		},
+		"isoRange6":	{
+			"zoomParams":	[1, 40, 30, 30, 15, 30, 1, 10]
+		},
+		"isoRange7":	{
+			"zoomParams":	[1, 40, 30, 40, 15, 30, 1, 10]
+		},
+		"isoRange8":	{
+			"zoomParams":	[1, 60, 30, 30, 15, 30, 1, 10]
+		},
+		"isoRange9":	{
+			"zoomParams":	[1, 60, 30, 30, 15, 30, 1, 10]
+		},
+		"isoRange10":	{
+			"zoomParams":	[0, 35, 40, 35, 15, 30, 1, 10]
+		},
+		"isoRange11":	{
+			"zoomParams":	[0, 50, 30, 50, 15, 30, 1, 10]
+		},
+		"isoRange12":	{
+			"zoomParams":	[0, 55, 30, 55, 15, 30, 1, 10]
+		}			
+	}, 
+	"zoomScaleRange2":	{
+		"isoRangeStart":	[0, 100, 200, 400, 600, 800, 1200, 1600, 3200, 6400, 9600, 12800],
+		"isoRange1":	{
+			"zoomParams":	[2, 15, 30, 15, 10, 30, 1, 10]			
+		},
+		"isoRange2":	{
+			"zoomParams":	[2, 30, 30, 15, 15, 30, 1, 10]
+		},
+		"isoRange3":	{
+			"zoomParams":	[2, 25, 30, 25, 15, 30, 1, 10]
+		},
+		"isoRange4":	{
+			"zoomParams":	[2, 30, 30, 30, 15, 30, 1, 10]
+		},
+		"isoRange5":	{
+			"zoomParams":	[1, 30, 30, 30, 15, 30, 1, 10]
+		},
+		"isoRange6":	{
+			"zoomParams":	[1, 40, 30, 30, 15, 30, 1, 10]
+		},
+		"isoRange7":	{
+			"zoomParams":	[1, 40, 30, 40, 15, 30, 1, 10]
+		},
+		"isoRange8":	{
+			"zoomParams":	[1, 60, 30, 30, 15, 30, 1, 10]
+		},
+		"isoRange9":	{
+			"zoomParams":	[1, 60, 30, 30, 15, 30, 1, 10]
+		},
+		"isoRange10":	{
+			"zoomParams":	[0, 35, 40, 35, 15, 30, 1, 10]
+		},
+		"isoRange11":	{
+			"zoomParams":	[0, 50, 30, 50, 15, 30, 1, 10]
+		},
+		"isoRange12":	{
+			"zoomParams":	[0, 55, 30, 55, 15, 30, 1, 10]
+		}		
+	},
+		"zoomScaleRange3":	{
+		"isoRangeStart":	[0, 100, 200, 400, 600, 800, 1200, 1600, 3200, 6400, 9600, 12800],
+		"isoRange1":	{
+			"zoomParams":	[2, 15, 30, 15, 10, 30, 1, 10]			
+		},
+		"isoRange2":	{
+			"zoomParams":	[2, 30, 30, 15, 10, 30, 1, 10]
+		},
+		"isoRange3":	{
+			"zoomParams":	[2, 25, 30, 25, 10, 30, 1, 10]
+		},
+		"isoRange4":	{
+			"zoomParams":	[2, 30, 30, 30, 15, 30, 1, 10]
+		},
+		"isoRange5":	{
+			"zoomParams":	[1, 30, 30, 30, 15, 30, 1, 10]
+		},
+		"isoRange6":	{
+			"zoomParams":	[1, 40, 30, 30, 15, 30, 1, 10]
+		},
+		"isoRange7":	{
+			"zoomParams":	[1, 40, 30, 40, 15, 30, 1, 10]
+		},
+		"isoRange8":	{
+			"zoomParams":	[1, 60, 30, 30, 15, 30, 1, 10]
+		},
+		"isoRange9":	{
+			"zoomParams":	[1, 50, 30, 30, 15, 30, 1, 10]
+		},
+		"isoRange10":	{
+			"zoomParams":	[1, 80, 30, 20, 15, 30, 1, 10]
+		},
+		"isoRange11":	{
+			"zoomParams":	[0, 50, 30, 50, 15, 30, 1, 10]
+		},
+		"isoRange12":	{
+			"zoomParams":	[0, 55, 30, 55, 15, 30, 1, 10]
+		}	
+	},
+		"zoomScaleRange4":	{
+		"isoRangeStart":	[0, 100, 200, 400, 600, 800, 1200, 1600, 3200, 6400, 9600, 12800],
+		"isoRange1":	{
+			"zoomParams":	[2, 15, 30, 15, 10, 30, 1, 10]			
+		},
+		"isoRange2":	{
+			"zoomParams":	[2, 15, 30, 15, 10, 30, 1, 10]
+		},
+		"isoRange3":	{
+			"zoomParams":	[2, 25, 30, 25, 10, 30, 1, 10]
+		},
+		"isoRange4":	{
+			"zoomParams":	[2, 30, 30, 30, 15, 30, 1, 10]
+		},
+		"isoRange5":	{
+			"zoomParams":	[1, 30, 30, 30, 15, 30, 1, 10]
+		},
+		"isoRange6":	{
+			"zoomParams":	[1, 30, 30, 30, 15, 30, 1, 10]
+		},
+		"isoRange7":	{
+			"zoomParams":	[1, 40, 30, 40, 15, 30, 1, 10]
+		},
+		"isoRange8":	{
+			"zoomParams":	[1, 60, 30, 20, 15, 30, 1, 10]
+		},
+		"isoRange9":	{
+			"zoomParams":	[1, 60, 30, 30, 15, 30, 1, 10]
+		},
+		"isoRange10":	{
+			"zoomParams":	[1, 60, 30, 30, 15, 30, 1, 10]
+		},
+		"isoRange11":	{
+			"zoomParams":	[0, 50, 30, 50, 15, 30, 1, 10]
+		},
+		"isoRange12":	{
+			"zoomParams":	[0, 55, 30, 55, 15, 30, 1, 10]
+		}		
+	}
+}

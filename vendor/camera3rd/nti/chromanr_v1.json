@@ -1,0 +1,269 @@
+{
+    "version":
+    {
+        "majorVersion": 1,
+        "minorVersion": 0,
+        "releaseVersion": 17,
+        "tuningVersion": 0
+    },
+    
+    "debug":
+    {
+        "comment_debuglevel": "0:error/init, 1:key, 2:info, 3:debug",
+        "debuglevel": 3,
+
+        "comment_watermarker": "0:disable, >=1:enable",
+        "watermarkerEn": 0,
+        
+        "comment_bypass": "0:disable, >=1:enable",
+        "bypassEn": 0,
+        
+        "comment_dump": "0:disable, >=1:enable",
+        "dumpEn": 0
+    },
+    
+
+    "auxgainknee":
+    {
+        "isoKneeNum": 9,
+        "isoKnee": [50, 100, 200, 400, 800, 1600, 3200, 6400, 12800],
+
+        "drcGainKneeNum": 4,
+        "drcGainKnee": [2, 4, 5, 6],
+
+        "radialKneeNum": 4,
+        "comment_radialgainknee": "ralated to iso",
+        "radialGainKnee":
+        [
+            1.0, 1.0, 1.4, 1.75,
+            1.0, 1.0, 1.4, 1.75,
+            1.0, 1.0, 1.4, 1.75,
+            1.0, 1.0, 1.4, 1.75,
+            1.0, 1.0, 1.4, 1.75,
+            1.0, 1.0, 1.4, 1.75,
+            1.0, 1.0, 1.4, 1.75,
+            1.0, 1.0, 1.4, 1.75,
+            1.0, 1.0, 1.4, 1.75
+        ],
+        
+        "lumaKneeNum": 4,
+        "lumaKnee": [0.25, 0.375, 0.5, 0.75]
+    },
+
+    "chromadenoise": 
+    {
+        "comment_temporallumafilterEnable": "0:disable, >=1:enable",
+        "temporallumafilterEn": 0,
+        
+        "comment_temporalchromafiltermethod": "0:bypass, 1:rangefilter, 2:nlm, 3:ave, 4:avepro",
+        "temporalchromafiltermethod": 0,
+        "comment_spatialchromafiltermethod": "0:bypass, 1:median, 2:guide, 3:threshold, 4:morphology, 6:joint",
+        "spatialchromafiltermethod": 6,
+        
+        "comment_postditherEnable": "0:disable, >=1:enable",
+        "postditherEn": 0,
+        
+        "comment_ditherthrehold":"0~3, ralated to imgvalue",
+        "ditherthreholdchroma": [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        
+        "comment_rangeradius": "0~n",
+        "rangeradius": 1,
+        
+        "comment_rangefliterC": "0~n",
+        "rangefliterC": 1.0,
+        
+        "chromacomment_spaceweight": "0~n",
+        "chromaspaceweight": 2,
+        
+        "chromascaleradius": [1, 3],
+        "chromascaleweight": [0.5, 0.5],
+        "chromaisothreshold":
+        [
+            0, 0,
+            0, 0,
+            0, 0,
+            0, 0,
+            1, 1,
+            1.25, 1.25,
+            1.5, 1.5,
+            1.75, 1.75,
+            2, 2
+        ],
+        
+        "comment_guiderfilter":"ralated to iso",
+        "guideradius": [4, 4, 4, 4, 4, 4, 4, 4, 4],
+        "guidescale":  [4, 4, 4, 4, 4, 4, 4, 4, 4],
+    
+        "comment_nlmsimgacalcmethod": "0:global, 1:local",
+        "nlmSimgaCalcMethod": 1,
+        
+        "comment_nonlocalmeanC": "0~n, according to iso and drcgain*drcgaindark value",
+        "nonlocalmeansC": 
+        [
+            0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7,
+            0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7,
+            0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7,
+            0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7
+        ],
+        
+        "comment_jointpyrycalcmethod": "0:gaussianpyramid, 1:resize",
+        "jointPyryCalcMethod": 1,
+        
+        "comment_jointpyruvcalcmethod": "0:laplacianpyramid, 1:resize",
+        "jointPyruvCalcMethod": 1,
+        
+        "comment_jointRadius": "1~n, ralated to pyramid",
+        "jointRadius": [ 4, 4, 4, 4, 4 ],
+        
+        "comment_jointStep": "1~n, ralated to pyramid",
+        "jointStep": [ 2, 2, 2, 2, 2 ],
+        
+        "comment_kSigma": "1~n",
+        "kSigma": 0,
+        
+        "comment_jointsimgacalcmethod": "0:fixed, 1:profile",
+        "jointSimgaCalcMethod": 0,
+        
+        "comment_jointpyrfiltermethod": "0:range, 1:wienershrink",
+        "jointPyrFilterMethod": [ 1, 1, 1, 0, 0 ],
+        
+        "comment_jointpostchromafiltermethod": "0:bypass, 2:weightmedia",
+        "jointPostChromaFilterMethod": 0,
+        
+        "comment_wmCopyNum": "0~5, copy num in weighted media filter",
+        "wmCopyNum": 3,
+        
+        "comment_pyrditherMethod": "0:bypass, 1:jpg98-100, 2:jpg95-97",
+        "pyrDitherMethod": 2,
+        
+        "comment_jointSaturationThreshold": "0:bypass, 1~n:saturation threshold",
+        "jointSaturationThreshold": 0,
+        
+        "comment_colorCorrectCoef": "0~0.5",
+        "colorCorrectCoef": 0.3
+
+    },
+
+    "luckyframe": 
+    {
+        "comment_method": "0:manual, 1:global sharpness",
+        "method": 0,
+
+        "fixedLuckyFrameID": 0
+    },
+
+    "noiseestimation": 
+    {
+        "comment_noiseestimation_method": "0:bypass, 1:laplace band pass filter",
+        "noiseestimationmethod": 0,
+
+        "comment_noisesigma": "noise sigma for range filter if bypass noise estimation",
+        "noisesigma": 1.0,
+
+        "comment_pixel count threshold":"if pixel count < threshold, profile will be invalid",
+        "pixelcountthreshold":0,
+
+        "comment_percentage threshold":"noise estimation percentage threshold according to ISO value",
+        "percentagethresholdLuma":
+        [
+            0.7, 0.6, 0.5, 0.5,
+            0.7, 0.6, 0.5, 0.5,
+            0.7, 0.6, 0.5, 0.5,
+            0.7, 0.6, 0.5, 0.5,
+            0.7, 0.6, 0.5, 0.5,
+            0.7, 0.6, 0.5, 0.5, 
+            0.8, 0.7, 0.6, 0.6,
+            0.8, 0.7, 0.6, 0.6,
+            0.8, 0.7, 0.6, 0.6
+        ],
+        
+        "comment_percentage threshold enhance for drcgain and drcgaindark":"noise estimation percentage threshold enhance according to drcgain and drcgaindark value",
+        "percentagethresholdEnhanceLuma":
+        [
+           0.0, 0.0, 0.0, 0.0,
+           0.0, 0.0, 0.0, 0.0,
+           0.0, 0.0, 0.0, 0.0, 
+           0.0, 0.0, 0.0, 0.0
+        ],
+        
+        "comment_percentage threshold":"noise estimation percentage threshold according to ISO value",
+        "percentagethresholdChroma":[0.9, 0.9, 0.9, 0.7, 0.5, 0.5, 0.5, 0.5, 0.5],
+    
+        "comment_percentage threshold enhance for drcgain and drcgaindark":"noise estimation percentage threshold enhance according to drcgain and drcgaindark value",
+        "percentagethresholdEnhanceChroma":[0.0, 0.0, 0.0, 0.0],
+        
+        "comment_noise_calculation_method":"0:ave, 1:percentage",
+        "noisecalculationmethod":1,
+        
+        "comment_localnoise_Enable": "0:global, 1:global and local, 2:local",
+        "localnoiseEn": 0,
+        
+        "comment_localnoiseUV_Enable": "0:global, 1:global and local, 2:local",
+        "localnoiseUVEn": 0,
+        
+        "comment_multilocalnoiseUV_Enable": "0:disable, >=1:enable",
+        "multilocalnoiseUVEn": 0
+    },
+
+    "fusion": 
+    {
+        "blocksize": 16,
+
+        "comment_overlapratio": "float in [0, 1.0], 0:non-overlap, 1:overall overlap",
+        "overlapratio": 0.5
+    },
+
+    "singleFrameNR": 
+    {
+        "comment_cnrEnable": "control the chroma noise reduction: 1-on,0-off",
+        "cnrEnable": [ 1, 1, 1, 1, 1 ],
+
+        "comment_cnrBaseRadius": "control RNR radial radius,range:[0,sqrt(height*height+width*width)/4]",
+        "cnrBaseRadius": 500,
+
+        "comment_cnrSigmaY": "control the chroma denoising intensity in channel Y",
+        "cnrSigmaY": [ 9, 7, 7, 7, 7,
+                       9, 7, 7, 7, 7,
+                       9, 7, 7, 7, 7,
+                       9, 7, 7, 7, 7,
+                       9, 7, 7, 7, 7,
+                       8, 7, 7, 7, 7,
+                       9, 7, 7, 7, 7,
+                       9, 8, 8, 8, 8,
+                       9, 8, 8, 8, 8],
+   
+        "comment_cnrSigmaU": "control the chroma denoising intensity in channel U",
+        "cnrSigmaU": [ 1, 1, 1, 3, 3,
+                       1, 1, 1, 3, 3,
+                       1, 1, 1, 3, 3,
+                       1, 1, 1, 3, 3,
+                       1, 1, 1, 3, 3,
+                       1, 1, 1, 3, 3,
+                       1, 1, 1, 3, 3,
+                       2, 2, 2, 4, 4,
+                       2, 2, 2, 4, 4],
+   
+        "comment_cnrSigmaV": "control the chroma denoising intensity in channel V",
+        "cnrSigmaV": [ 1, 1, 1, 3, 3,
+                       1, 1, 1, 3, 3,
+                       1, 1, 1, 3, 3,
+                       1, 1, 1, 3, 3,
+                       1, 1, 1, 3, 3,
+                       1, 1, 1, 3, 3,
+                       1, 1, 1, 3, 3,
+                       2, 2, 2, 4, 4,
+                       2, 2, 2, 4, 4],
+
+        "comment_cnrRadialGain": "control the chroma denoising intensity in the RNR mode, range:[0,255]",
+        "cnrRadialGain": [ 150,  175, 255, 255, 255,
+                           150,  175, 255, 255, 255,
+                           150,  175, 255, 255, 255,
+                           150,  175, 255, 255, 255,
+                           150,  175, 255, 255, 255,
+                           150,  175, 255, 255, 255,
+                           150,  175, 255, 255, 255,
+                           150,  175, 255, 255, 255,
+                           150,  175, 255, 255, 255]
+    }
+
+}

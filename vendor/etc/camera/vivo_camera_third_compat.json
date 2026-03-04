@@ -1,0 +1,44 @@
+{
+    "version": "1.0.0",
+    "data": "2021-01-26",
+    "manitainer": "Li Jiahui",
+    "shouldNotifyAFLocked": [
+        "com.baidu.tieba",
+        "com.viber.voip",
+        "com.kbzbank.kpaycustomer",
+        "com.pjbest.pjapp",
+        "com.rd.tangdynasty",
+        "com.best.android.laiqu",
+        "com.mpt.dms",
+        "asia.bluepay.clientin",
+        "com.yonghui.cloud.merchant.assistant",
+        "cn.com.servyou.servyougstax",
+        "com.cmec.weietong",
+        "com.bt.ycehome.ui",
+        "com.zubattery.user",
+        "com.whatsapp",
+        "com.meituan.android.grocery.gms",
+        "jp.naver.line.android",
+        "com.android.vivolpa"
+    ],
+    "shouldSkipReconfigure": [
+        "com.skype.rover",
+        "com.skype.raider",
+        "com.tencent.wework",
+        "jp.naver.linecamera.android",
+        "com.picsart.studio",
+        "com.eg.android.AlipayGphone",
+        "com.linkedin.android",
+        "com.ss.android.ugc.aweme",
+        "com.tencent.mobileqq",
+        "com.kwai.bulldog"
+    ],
+    "shouldDisablePartialCallback": [
+        "com.whatsapp"
+    ],
+    "shouldForceCovertAFmode": [
+        "com.mfw.roadbook",
+        "com.chinaunicom.zst",
+        "com.ydtx.camera"
+    ]
+}
